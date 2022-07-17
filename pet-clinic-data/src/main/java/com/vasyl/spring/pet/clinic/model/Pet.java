@@ -3,7 +3,7 @@ package com.vasyl.spring.pet.clinic.model;
 import java.time.LocalDate;
 
 /**
- * @author vasyl
+ * @author Vasyl
  */
 public class Pet {
 

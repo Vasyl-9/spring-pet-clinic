@@ -1,7 +1,7 @@
 package com.vasyl.spring.pet.clinic.model;
 
 /**
- * @author vasyl
+ * @author Vasyl
  */
 public class PetType {
 
