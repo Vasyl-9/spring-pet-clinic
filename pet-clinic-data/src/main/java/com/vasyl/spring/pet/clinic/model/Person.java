@@ -3,7 +3,7 @@ package com.vasyl.spring.pet.clinic.model;
 /**
  * @author Vasyl
  */
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
