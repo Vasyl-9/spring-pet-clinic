@@ -1,14 +1,15 @@
 package com.vasyl.spring.pet.clinic.service.map;
 
 import com.vasyl.spring.pet.clinic.model.Vet;
-import com.vasyl.spring.pet.clinic.service.CrudService;
-
+import com.vasyl.spring.pet.clinic.service.VetService;
 import java.util.Set;
+import org.springframework.stereotype.Service;
 
 /**
  * @author Vasyl
  */
-public class VetMapService extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+@Service
+public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
